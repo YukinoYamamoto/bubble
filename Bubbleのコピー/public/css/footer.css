@@ -1,0 +1,16 @@
+footer{
+    padding-bottom: 0;
+}
+.bubble-img{
+width: 100%;
+height:100%;
+background-image: url("/img/bubble.png");
+background-size: cover;
+border-top: 1px solid rgba(255,255,255,0.3);
+}
+.bubble-img p{
+    font-size: 30px;
+    font-family: serif;
+    text-align: center;
+    padding: 150px;
+}

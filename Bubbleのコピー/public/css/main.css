@@ -1,0 +1,324 @@
+.header1{
+    text-align: center;
+}
+.logbtn{
+    text-align: center;
+}
+#btn{
+    border-radius: 20px 40px;
+    color: darkgray;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:antiquewhite;
+    margin-bottom: 100px;
+    padding: 20px 50px;
+}
+.bubbleone-img{
+    /*width: 30%;
+    height: 30%;*/
+
+    margin: auto;
+}
+.img2, .img4{
+    padding-left: 200px;
+    animation-name: fadeIn1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+
+}
+.img3{
+    padding-right: 300px;
+    animation: fadeIn2 5s ease 1s infinite alternate backwards;
+}
+.img1, .img5{
+    padding-left: 100px;
+    animation: fadeIn3 5s ease 1s infinite alternate backwards;
+}
+@keyframes fadeIn1{
+    from{opacity: 0;
+    transform: translateY(200px);}
+    30%{opacity: 0.5;}
+    to{opacity: 1;
+    transform: translateY(0);}
+}
+@keyframes fadeIn2{
+    from{opacity: 0;
+    transform: translateX(500px);}
+    30%{opacity: 0.5;}
+    to{opacity: 1;
+    transform: translateX(300);}
+}
+@keyframes fadeIn3{
+    from{opacity: 0;
+    transform: translateX(-500px);}
+    30%{opacity: 0.5;}
+    to{opacity: 1;
+    transform: translateX(300);}
+}
+.bubbleone-img img{
+    width: 30%;
+    height: 30%;
+}
+
+/*ログインページ*/
+.login-page{
+    text-align: center;
+}
+.toplink{
+    padding: 40px;
+    display: flex;
+}
+.toplink a{
+    font-size: 25px;
+    color: black;
+}
+form dd{
+    padding: 10px;
+}
+#login-btn{
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:beige;
+}
+.register a{
+    color: black;
+}
+.reset{
+    padding-bottom: 20px;
+}
+.reset a{
+    color: brown;
+}
+
+/*パスワード再設定ページ
+.pass-page{
+    text-align: center;
+}
+.pass-page h1{
+    font-size: 20px;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.pass-link{
+    margin-bottom: 20px;
+}
+.pass-link a{
+    color: black;
+}*/
+
+/*新規登録ページ*/
+.regi-page{
+    text-align: center;
+}
+#regi-btn{
+    background-color:beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+}
+/*投稿ページ*/
+.post-area{
+    text-align: center;
+}
+.post-area p{
+    font-size: 20px;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+input.pos-text{
+    border-radius: 80px;
+    width: 30%;
+    padding: 50px 0;
+    
+}
+.post-text dd{
+    padding: 100px 0;
+}
+#pos-btn{
+    background-color:coral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-left: 15px;
+}
+.post-text a{
+    background-color:crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-right: 15px;
+}
+/*確認ページ*/
+.con-area{
+    text-align: center;
+}
+.con-area p{
+    font-size: 20px;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.post-text dt{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.post-text dt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button.confi-btn2{
+    background-color:coral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+.con-btns{
+    margin:0 10px 10px 20px;
+}
+/*mypage*/
+.my-area{
+    text-align: center;
+}
+.my-area p{
+    font-size: 20px;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.my-good{
+    text-align: center;
+}
+.my-good a{
+    font-size: 20px;
+    color:rosybrown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    border-top: 1px solid;
+}
+.my-page{
+    text-align: center;
+}
+#my-btn{
+    background-color:lightskyblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px 20px;
+    border: 1px solid;
+    padding: 10px 30px;
+}
+/*全ユーザ全投稿ページ*/
+dt .all-btn{
+    background-color:burlywood;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+.mt_box p{
+    /*background-color:floralwhite;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 20px 10px;
+    margin: 20px;
+}
+.mt_box{
+    text-align: center;
+    margin: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+dt{
+    margin-top: 5px;
+}
+.mt_box a{
+    margin-bottom: 10px;
+    background-color:floralwhite;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.con-btns a{
+    background-color:mistyrose;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+/*一般ユーザ一覧ページ*/
+/*投稿詳細ページ*/
+.three-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.detail-back{
+    background-color:crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px 30px;
+    margin-right: 15px;
+}
+input.edit{
+    background-color:coral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px 30px;
+    margin-right: 15px;
+}
+input.dele{
+    background-color:darkolivegreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px 30px;
+    margin-right: 15px;
+}
+
+.toggle_wish{
+    color: crimson;
+}
+
+/*編集ページ*/
+.edit-area{
+    text-align: center;
+}
+.edit-area h2{
+    margin-top: 100px;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input.mt_box{
+    border-radius: 80px;
+    width: 30%;
+    padding: 50px 0;
+}
+.edit-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.edit-back{
+    background-color:crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px 30px;
+    margin-right: 30px;
+}
+#edi-btn{
+    background-color:coral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px 30px;
+    margin-left: 30px;
+}
